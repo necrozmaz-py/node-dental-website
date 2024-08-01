@@ -1,0 +1,192 @@
+#pills-tabContent {
+  background-image: url('unplash_images/smilesagain.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 430px;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('unplash_images/smilesagain.jpg');
+  background-color: antiquewhite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.navbar {
+  background-image: url('unplash_images/drs.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#pills-tab {
+  background-color: transparent;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60px;
+  justify-content: flex-end;
+}
+
+#section-1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+  position: relative;
+  text-align: center; /* Added text alignment to center */
+}
+
+#doctor-cards {
+  margin-top: 120px;
+}
+
+#Section-1 {
+  min-height: 400px;
+}
+
+.col-md-6 {
+  text-align: center;
+  
+}
+
+/* Style for Section 6 (footer) */
+#Section-6 {
+  
+  color: white;
+  text-align: center; /* Added text alignment to center */
+}
+
+#section-4 {
+  margin-bottom: 20px;
+}
+#Section-5 {
+  background-color: #f8f9fa; /* Set the background color */
+  padding: 20px; /* Add some padding to the section */
+}
+
+#Section-5 h2 {
+  text-align: center; /* Center the section title */
+}
+
+/* Style for Services Tab */
+#nav-profile-tab {
+  background-color: #3498db; /* Background color for the Services tab button */
+  color: white; /* Text color for the Services tab button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add some border radius for rounded corners */
+  padding: 10px 20px; /* Add some padding for better appearance */
+  margin: 10px; /* Add margin to separate buttons */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+#nav-profile-tab:hover {
+  background-color: #2980b9; /* Change background color on hover */
+}
+
+/* Style for Service Cards */
+.card {
+  background-color: white; /* Background color for service cards */
+  border: none; /* Remove card borders */
+  border-radius: 10px; /* Add some border radius for rounded cards */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  margin: 10px; /* Add margin to separate cards */
+}
+
+.card-body {
+  text-align: center; /* Center text within card body */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.card-body img {
+  max-width: 100%; /* Ensure images don't overflow */
+  height: auto; /* Maintain image aspect ratio */
+}
+
+/* Style for Service Card Titles */
+.card h3 {
+  color: #3498db; /* Title text color */
+  font-size: 24px; /* Title font size */
+}
+
+/* Style for Service Card Descriptions */
+.card p {
+  font-size: 16px; /* Description font size */
+}
+
+.footer-container{
+  background-color: #212329;
+  padding-bottom: 4rem;
+  
+}
+
+.footer{
+ 
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#Section-6{
+  color: black;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+select#service {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} 
