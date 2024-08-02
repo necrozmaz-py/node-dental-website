@@ -46,3 +46,12 @@ generateTimeSlots();
 
 
 document.getElementById('date').addEventListener('change', updateTimeSlots);
+
+
+document.getElementById("bookingForm").addEventListener("submit", function(event) {
+    alert("See you soon"); // Display alert message
+    location.reload(); // Reload the page
+    setTimeout(function() {
+        location.reload();
+      }, 1000);
+  });

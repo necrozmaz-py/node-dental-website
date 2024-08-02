@@ -79,57 +79,6 @@ app.post('/submit-booking', (req, res) => {
         res.status(500).send('An error occurred');
     }
 });
-//     catch (error) {
-//         console.log(error);
-//         res.send('bleh lame aint gonna work');
-//     }
-//     db.close();
-//  });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// app.post('/form', (req, res) => {
-//     const { name, age, phone, service, date, time, comments } = req.body;
-//     db.run(`INSERT INTO dentist(name, age, phone, service, date, time, comments) VALUES (?, ?, ?, ?, ?, ?, ?)`, [name, age, phone, service, date, time, comments], function(err) {
-//         if (err) {
-//             console.log(err.message);
-//             return res.status(500).send('Error inserting data into database');
-//         }
-//         console.log(`A row has been inserted`);
-//         res.send('Data has been added to the database');
-//     });
-// });
-    
-    //db.run(`INSERT INTO dentist(name, age, phone, service, date, time, comments) VALUES ('${name}', '${age}', '${phone}', '${service}', '${date}', '${time}', '${comments}')`, function(err) {
-            
-            //db.post(newUser,[name, age, phone, service, date, time, comments], (err,result) => { 
-
-
-// app.post('/post', async (req, res) => {
-//     let data = req.body;
-//     console.log(data);
-//     const {d.date, regtime, name, age, phone, service, comments} = data;
-//     const newUser = db.run(`INSERT INTO dentist(name, age, phone, service, date, time, comments) VALUES (?, ?, ?, ?, ?, ?, ?)`, [data.name, data.age, data.phone, data.service, data.date, data.time, data.comments], async function(err) {
-//         if (err) {
-//             return console.log(err.message);
-//             console.log(`I am not here :( `);
-//         }
-//         console.log(`A row has been inserted `);
-//         await newUser.save();
-//         console.log(newUser);
-//         res.send('Data has been added to the database');
-//     });
-//     res.redirect('/');
-// });
 
